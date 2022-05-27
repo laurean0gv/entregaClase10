@@ -1,0 +1,1 @@
+[{"title":"agregando un titulo","price":"123.45","thumbnail":"urlAgregada","id":1},{"title":"titulo","price":"100","thumbnail":"url","id":2},{"title":"titulo","price":"100","thumbnail":"url","id":3},{"title":"titulo","price":"100","thumbnail":"url","id":4}]

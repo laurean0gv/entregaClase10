@@ -1,0 +1,33 @@
+</script>
+	<div id='mainDiv'>
+	<div id='formDiv'>
+		<form action="http://localhost:8080/api/productos" method="POST">
+			<fieldset>
+				<legend>Productos</legend>
+				<table id='regDetails'>
+					<tr>
+						<td><label for="name">Titulo</label></td>
+						<td><input type="text" name="title" id="title"/></td>
+					</tr>
+					<tr>
+						<td><label for="price">Precio</label></td>
+						<td><input type="number" name="price" id="price"/></td>
+					</tr>
+          			<tr>
+						<td><label for='url'>url</label></td>
+						<td><input type='text' name="thumbnail" id='thumbnail'/></td>
+					</tr>
+					<tr>
+						<td colspan='2'><button type="submit">Guardar</button></td>
+					</tr>
+				</table>
+			</fieldset>
+		</from>
+	</div>
+	<div id='detailsBox'></div>
+</div>
+<a href="http://localhost:8080/api/productos/mostrarHbs">
+   <input type="button" value="Ver Productos" />
+</a>
+<script>
+	

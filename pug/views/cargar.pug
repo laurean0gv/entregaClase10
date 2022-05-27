@@ -1,0 +1,15 @@
+extends layout.pug
+
+block contenido
+
+    form(action="http://localhost:8080/api/productos" method="POST")    
+    p='Titulo'
+    input(type="text" name="title" id="title")
+    p='Precio'
+    input(type="text" name="price" id="price")
+    p='url'
+    input(type="text" name="url" id="url")
+    p
+    button(type="submit") Aceptar
+
+    

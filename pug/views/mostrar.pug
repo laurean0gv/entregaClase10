@@ -1,0 +1,9 @@
+extends layout.pug
+
+block contenido
+    if object
+            h1='Productos'
+
+    ul
+        each val, key in object
+            li='Id: ' + val.id + ' | Titulo: ' + val.title + ' | Precio: ' + val.price + ' | url: ' + val.url
